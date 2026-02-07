@@ -43,7 +43,7 @@ docker compose version
 
    The first run will build the app image and download the Elasticsearch image. Elasticsearch runs only inside Docker (not exposed to your host). The web app is served on port 3000.
 
-4. **Load the data into Elasticsearch** (required once):
+4. **(Optional) Load the data into Elasticsearch** (only needed when loading another file or searching returns no results):
 
    We don’t load data automatically. The app and Elasticsearch start with an empty index, so you need to run the loader once so that search has data to work with:
 
