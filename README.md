@@ -25,7 +25,7 @@ docker compose version
 1. **Clone the repo** (if you don’t have it yet):
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/InsaniManES/streets
    cd streets
    ```
 
