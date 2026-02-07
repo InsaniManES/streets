@@ -1,0 +1,19 @@
+{
+  "settings": {"number_of_shards": 1, "number_of_replicas": 0},
+  "mappings": {
+    "dynamic": false,
+    "properties": {
+      "namePrimary": {"type": "text", "fields": {"keyword": {"type": "keyword"}}, "copy_to": "allText"},
+      "title": {"type": "text", "fields": {"keyword": {"type": "keyword"}}, "copy_to": "allText"},
+      "nameSecondary": {"type": "text", "fields": {"keyword": {"type": "keyword"}}, "copy_to": "allText"},
+      "group": {"type": "text", "fields": {"keyword": {"type": "keyword"}}, "copy_to": "allText"},
+      "groupExtra": {"type": "text", "fields": {"keyword": {"type": "keyword"}}, "copy_to": "allText"},
+      "kind": {"type": "text", "fields": {"keyword": {"type": "keyword"}}, "copy_to": "allText"},
+      "code": {"type": "integer"},
+      "neighborhood": {"type": "text", "fields": {"keyword": {"type": "keyword"}}, "copy_to": "allText"},
+      "allText": {"type": "text"},
+      "isDeleted": {"type": "boolean"}
+    }
+  },
+  "defaults": {"isDeleted": false}
+}

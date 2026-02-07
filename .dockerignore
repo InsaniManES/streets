@@ -1,0 +1,13 @@
+.git
+.gitignore
+.env
+.env.*
+node_modules
+streets-ui/node_modules
+dist
+streets-ui/dist
+*.log
+.idea
+.vscode
+docs
+.DS_Store
